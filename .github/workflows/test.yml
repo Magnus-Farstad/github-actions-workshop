@@ -27,6 +27,8 @@ jobs:
   
       - name: Test
         run: go test ./...
+
+      - run: echo "Hello world"
   
   lint:
     # Also add checkout and setup go steps here, like in previous tasks
